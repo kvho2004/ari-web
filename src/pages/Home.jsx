@@ -10,7 +10,6 @@ function Home() {
   return (
     <div className="home">
       <Navbar />
-      <Hero />
       <AboutXR />
     </div>
   );
