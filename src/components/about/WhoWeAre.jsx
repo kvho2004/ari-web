@@ -1,14 +1,16 @@
+import "./whoWeAre.css";
+
 export default function WhoWeAre() {
   return (
     <section className="who-we-are">
       <h2>Who We Are</h2>
       <p>
-        The Alternate Reality Initiative (ARI) is a student organization at the University of Michigan centered around virtual, augmented,
+        The <b>Alternate Reality Initiative (ARI)</b> is a student organization at the University of Michigan centered around virtual, augmented,
         and mixed-reality technology. After seeing a lack of a centralized community, we created ARI to provide a hub and community for 
         students interested in XR technology.
       </p>
       <p>
-        Through weekly meetings, ARI is fostering the next generation of XR innovators by hosting development workshops,
+        Through weekly meetings, ARI is <b>fostering the next generation of XR innovators</b> by hosting development workshops,
         discussing industry news, and connecting students to opportunities in the greater XR ecosystem.
       </p>
       <p>

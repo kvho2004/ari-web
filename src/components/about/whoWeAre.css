@@ -1,0 +1,28 @@
+.who-we-are {
+  background-color: black;
+  padding: 160px 40px;
+  text-align: left;
+  font-family: "Avenir", "Avenir Next", Helvetica, Arial, sans-serif;
+}
+
+.who-we-are h2 {
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 64px;
+  color: #C2BECC;
+  text-align: center;
+}
+
+.who-we-are p {
+  max-width: 980px;
+  margin: 0 auto 36px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #E0E0E0;
+}
+
+@media (max-width: 768px) {
+  .who-we-are h2 {
+    font-size: 2.8rem;
+  }
+}

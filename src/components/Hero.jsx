@@ -22,10 +22,23 @@ function Hero() {
     let mouseX = window.innerWidth / 2;
     let mouseY = window.innerHeight / 2;
     let object;
+    let renderer;
 
-    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    try {
+      renderer = new THREE.WebGLRenderer({
+        alpha: true,
+        antialias: false,
+        powerPreference: "low-power",
+      });
+    } catch (e) {
+      console.warn("WebGL unavailable, skipping Hero");
+      return;
+    }
+
     renderer.setSize(window.innerWidth, window.innerHeight);
     containerRef.current.appendChild(renderer.domElement);
+
+    
 
     const controls = new OrbitControls(camera, renderer.domElement);
 

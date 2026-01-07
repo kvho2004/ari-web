@@ -1,5 +1,5 @@
-import WhoWeAre from "../components/WhoWeAre";
-import TeamSection from "../components/TeamSection";
+import WhoWeAre from "../components/about/WhoWeAre";
+import TeamSection from "../components/about/TeamSection";
 
 export default function About() {
   return (

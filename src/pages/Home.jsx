@@ -9,7 +9,8 @@ import AboutXR from "../components/AboutXR";
 function Home() {
   return (
     <div className="home">
-      <Navbar />
+      <Navbar />  
+      <Hero />
       <AboutXR />
     </div>
   );
