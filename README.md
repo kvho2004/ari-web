@@ -1,16 +1,62 @@
-# React + Vite
+# Alternate Reality Initiative Website (WIP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **work-in-progress redesign and rebuild** of the Alternate Reality Initiative (ARI) website, an XR-focused student organization at the University of Michigan.
 
-Currently, two official plugins are available:
+The goal of this project is to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Rebuild the website **from scratch** with a cleaner, more maintainable codebase
+* Redesign the visual and interaction experience to better reflect ARI’s identity and mission
+* Improve accessibility, performance, and long-term scalability
+* Establish a solid foundation for future contributors and iterations
 
-## React Compiler
+This is an active development project; structure, components, and design decisions are still evolving.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About Alternate Reality Initiative
 
-## Expanding the ESLint configuration
+Alternate Reality Initiative (ARI) is a student-led organization at the University of Michigan focused on extended reality (XR), including virtual reality, augmented reality, and immersive media. ARI explores XR through projects, workshops, research, and community-building across disciplines.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* React
+* Vite
+* JavaScript
+* ESLint
+
+The project uses Vite for a fast development environment with hot module replacement (HMR).
+
+## Development Status
+
+* Initial project scaffolding complete
+* Ongoing code cleanup and refactoring
+* UI/UX redesign in progress
+* Component architecture and styling patterns subject to change
+
+Expect breaking changes as the site is actively reworked.
+
+## Getting Started
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
+```
+
+## Notes on Tooling
+
+This project is currently using the standard React + Vite setup. Advanced features such as the React Compiler or TypeScript may be added later once the core architecture stabilizes.
+
+## Contributions
+
+Contributions, feedback, and design input are welcome. Because this is a work in progress, **please coordinate changes with the project manager, kvho2004, or open an issue before making large structural updates.**
